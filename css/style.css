@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{margin: 0;
+padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right top, #0a2345, #121b35, #131425, #0e0b17, #010003);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    display: inline-block;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(100, 50, 50);
+   
+}
+button.navbar-toggler i{
+    color: #2a5da3;
+}
+/*banner part start*/
+.banner-content{
+padding: 100px 0;
+}
+.banner-content h1{
+color: #fff;
+margin-bottom: 15px;
+font-family: Montserrat;
+font-weight: 900;
+}
+.banner-content h1 span{
+    color: #2a5da3;
+}
+.banner-content p{
+    color: #fff;
+    font-family: Montserrat;
+}
+.btn-custom{
+    color: #fff;
+    border: none;
+    border: 2px solid#2a5da3;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.btn-custom:hover{
+    border: 2px solid#fff;
+    color: #fff;
+
+}
+/*banner part end*/
+
+/*music theme part start*/
+.music-theme{
+    background-image: url(../images/music-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 0;
+}
+
+.img-w img{
+    width: 90%;
+}
+/*music theme part end*/
+
+/*head-Phone part start*/
+.head-Phone{
+    background-image: url(../images/head-mic.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 64px 0;
+}
+.head-Phone h1{
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 900;
+}
+.head-Phone h1 span{
+    color: #2a5da3;
+
+}
+.head-Phone p{
+    color: #415167;
+    font-family: Montserrat;
+}
+/*head-Phone part end*/
+
+/*feature part start*/
+.feature{
+padding: 100px 0;
+background-image: url(../images/mobile-feature.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 300px;
+}
+.feature h1{
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 900;
+    
+}
+.feature h1 span{
+    color: #2a5da3;
+}
+.fetur{
+    padding: 100px 0;
+}
+.fetur i{
+    margin-bottom: 15px;
+    color: #ff3334;
+    font-size: 30px;
+}
+.fetur h5{
+    margin-bottom: 15px;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.fetur p{
+    color: #415167
+    font-family: Montserrat;
+}
+/*feature part end*/
+
+/*power part start*/
+.power{
+    padding: 90px;
+    background-image: url(../images/power.png);
+    background-position: right;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.power i{
+    color: #ff3334;
+    font-size: 30px;
+    margin-bottom: 15px;
+    
+}
+.power h5{
+    color: #fff;
+    font-family: Montserrat;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.power p{
+    color: #415167;
+    font-family: Montserrat;
+}
+/*power part end*/
